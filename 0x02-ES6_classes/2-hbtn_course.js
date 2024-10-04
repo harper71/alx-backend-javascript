@@ -14,7 +14,7 @@ export default class HolbertonCourse {
     this._length = length;
 
     if (!Array.isArray(students) && typeof students !== 'string') {
-      throw new TypeError("'Expected students to be an array of strings or a string'");
+      throw new TypeError('Expected students to be an array of strings or a string');
     }
     this._students = students;
   }

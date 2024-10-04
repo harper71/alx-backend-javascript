@@ -1,4 +1,5 @@
-import ClassRoom from './0-classroom';
+// eslint-disable-next-line import/extensions
+import ClassRoom from './0-classroom.js';
 
 export default function initializeRooms() {
   const newClassRooms = [
