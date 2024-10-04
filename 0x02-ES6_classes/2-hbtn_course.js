@@ -6,6 +6,7 @@ export default class HolbertonCourse {
 
     this._name = name;
 
+    // eslint-disable-next-line no-restricted-globals
     if (typeof length !== 'number' || isNaN(length)) {
       throw new TypeError('Length must be a number');
     }
