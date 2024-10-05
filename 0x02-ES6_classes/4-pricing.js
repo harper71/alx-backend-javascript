@@ -30,7 +30,7 @@ export default class Pricing {
     return `${this._amount} ${this._currency.name} (${this._currency.code})`;
   }
 
-  covertPrice(amount, conversionRate) {
+  static covertPrice(amount, conversionRate) {
     if (typeof amount !== 'number' && conversionRate !== 'number') {
       throw new TypeError('Both amount and the convertion rate must be numbers');
     }
