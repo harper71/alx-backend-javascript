@@ -13,6 +13,7 @@ try {
 }
 
 try {
+  // eslint-disable-next-line no-unused-vars
   const c2 = new HolbertonCourse('ES6', '1', ['Bob', 'Jane']);
 } catch (err) {
   console.log(err);

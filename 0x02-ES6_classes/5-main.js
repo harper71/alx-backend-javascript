@@ -1,5 +1,6 @@
-import Airport from "./7-airport.js";
+// eslint-disable-next-line import/extensions
+import HolbertonClass from "./8-hbtn_class.js";
 
-const airportSF = new Airport('San Francisco Airport', 'SFO');
-console.log(airportSF);
-console.log(airportSF.toString());
+const hc = new HolbertonClass(12, "Mezzanine")
+console.log(Number(hc));
+console.log(String(hc));
