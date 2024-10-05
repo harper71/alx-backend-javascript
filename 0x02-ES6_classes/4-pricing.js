@@ -31,9 +31,6 @@ export default class Pricing {
   }
 
   static covertPrice(amount, conversionRate) {
-    if (typeof amount !== 'number' && conversionRate !== 'number') {
-      throw new TypeError('Both amount and the convertion rate must be numbers');
-    }
     return amount * conversionRate;
   }
 }
