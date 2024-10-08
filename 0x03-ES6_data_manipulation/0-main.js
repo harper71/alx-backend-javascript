@@ -1,5 +1,15 @@
-import hasValuesFromArray from "./7-has_array_values.js";
+import { queryAPI, weakMap } from "./100-weak.js";
 
-console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1]));
-console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [10]));
-console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
+const endpoint = { protocol: 'http', name: 'getUsers' };
+weakMap.get(endpoint);
+
+queryAPI(endpoint);
+console.log(weakMap.get(endpoint));
+
+queryAPI(endpoint);
+console.log(weakMap.get(endpoint));
+
+queryAPI(endpoint);
+queryAPI(endpoint);
+queryAPI(endpoint);
+queryAPI(endpoint);
