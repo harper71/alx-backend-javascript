@@ -1,0 +1,16 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "Here’s a detailed guide on using **Mocha** to write a test suite, working with different assertion libraries, and implementing concepts like spies, stubs, hooks, and testing asynchronous code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2"
+  }
+}
