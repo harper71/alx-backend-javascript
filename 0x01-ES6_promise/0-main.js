@@ -1,4 +1,3 @@
-import handleResponseFromAPI from "./2-then.js";
+import uploadPhoto from './5-photo-reject.js';
 
-const promise = Promise.resolve();
-handleResponseFromAPI(promise);
+console.log(uploadPhoto('guillaume.jpg'));
