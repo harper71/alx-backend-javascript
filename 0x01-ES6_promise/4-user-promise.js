@@ -4,7 +4,6 @@ export default function signUpUser(firstName, lastName) {
       firstName,
       lastName,
     });
-
     reject(new Error('this data could not be assigned'));
   });
 }
